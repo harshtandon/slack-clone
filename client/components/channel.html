@@ -1,0 +1,10 @@
+<template name='channel' >
+    <li class='channel {{isActive}}'>
+        <a class="channel_name" href="/{{channelName}}">
+            <span class="unread">{{messageCount}}</span>
+            <span>
+            <span class="prefix">#</span>{{channelName}}
+            </span>
+        </a>
+    </li>
+</template>

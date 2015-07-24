@@ -1,0 +1,13 @@
+{
+    "preset": "google",
+
+    "maximumLineLength": 9999999,
+
+    "disallowMultipleVarDecl": null,
+
+    "disallowMultipleLineStrings": null,
+
+    "excludeFiles": ["node_modules/**", "bower_components/**", "dist/**"],
+
+    "validateIndentation": 4
+}
